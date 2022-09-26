@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  
+    background-color: #0000b3;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 30%;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid black;
+    border-right: 0px;
+    box-sizing: border-box;
+}
+
+.navbar a {
+
+  margin: auto;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3vw;
+  font-weight: 900;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a.active {
+  color: white;
+} 
+
+.sidebar {
+    background-color: #e68a00;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 70%;
+    transition: all 0.5s ease;
+    border: 5px solid black;
+    border-bottom: 0px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-around; 
+}
+
+.bottom {
+    background-color: #e68a00;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 30%;
+    width: 20%;
+    border: 5px solid black;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: space-around;  
+}
+
+.bottom p {
+   margin: auto;
+  color: black;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+
+.sidebar .top {
+    margin: auto;
+    background-color: #0000b3;
+    height: 92%;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+}
+
+.title p {
+   margin-left: 20px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 30%;
+   width: 40%;
+   font-size: 7vw;
+}
+
+</style>
+</head>
+<body>
+<div class="title">
+<p>Maverick <br> Mercado</p>
+</div>
+<div class="navbar">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#Login">Login/Register</a>
+</div>
+<div class="sidebar">
+   <div class="top">
+   <p style="font-size: 2vw;position: absolute;top: 0;left: 0;">About<br>Maverick<br>Mercado</p>
+   </div>
+ 
+</div>
+<div class="bottom">
+  <p>Disciplina<br>praesidium<br>civitatis</p> 
+</div>
+
+</body>
+</html>
