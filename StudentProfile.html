@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 20%;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.navbar a {
+
+  margin: auto;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3vw;
+  font-weight: 900;
+}
+
+.profilepicture {
+   background-image: url('https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png');
+   background-size: contain; 
+   height:10vw; width:10vw; 
+   padding-top:1%; 
+   border-radius: 100%; 
+   border: 0.5vw solid black;   
+}
+
+.products{
+    width: 50%;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.product{
+   background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-image-512.png');
+   background-size: contain; 
+   height:5vw; 
+   width:5vw; 
+   padding-top:1%; 
+   border: 0.2vw solid black;  
+}
+
+
+body {
+overflow: scroll;
+display: flex;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#Login">Login/Register</a>
+</div>
+
+<center style= "position: absolute;width: 100%; top: 20%; display: flex;justify-content: space-around;">
+
+<div class="profilepicture" >
+  <img src="" style="height:10vw">
+</div>
+
+</center>
+
+<div style="position: absolute; height: 40%;width: 100%; top: 50%;">
+<p style="font-size:1.5vw; font-weight: bold; margin-left: 20%">Info</p>
+<center style="height:70%;">
+<table style="height:100%; width: 50%; font-size:1vw">
+  <tr>
+    <td>Name:</td>
+    <td></td>
+    <td>First Name:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Phone Number:</td>
+    <td></td>
+    <td>Address:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td></td>
+    <td>Student ID:</td>
+    <td></td>
+  </tr>
+</table> 
+</center>
+</div>
+
+
+<div class="ProductsClubs" style="position: absolute; height: 40%;width: 100%; top: 90%;">
+<p style="font-size:1.5vw; font-weight: bold; margin-left: 20%">Products</p>
+<center>
+<div class= "products">
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+</div>
+</center>
+
+<p style="font-size:1.5vw; font-weight: bold; margin-left: 20%">Clubs</p>
+<center>
+<div class= "products">
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+<div class="product" >
+  <img src="" style="height:10vw">
+</div>
+</div>
+</center>
+
+
+
+</div>
+
+
+
+</body>
+</html>
