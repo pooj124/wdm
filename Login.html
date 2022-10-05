@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            .body h2{
+                text-align: center;
+                justify-content: space-around;
+            }
+            .navbar{
+    background-color:#f58025;
+    border-color: #0064b1 ;
+    border-width: 5px;
+    right: 0;
+    width:100%;
+    top: 0;
+    height: 5%;
+    bottom:0;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+}
+.signin{
+    display: flex;
+    box-sizing: border-box;
+    align-self: center;
+    right: 0;
+    width: 50%;
+    top:0;
+    bottom: 0;
+    align-items: left;
+    align-content: left;
+}
+.register{
+    display: flex;
+    box-sizing: border-box;
+    align-self: right;
+    align-content: right;
+}
+.flex-container {
+    display: flex;
+    top: 0;
+    border-color: #0064b1;
+    height: 10%;
+}
+
+.flex-child{
+    flex: 1;
+    border: 2px solid blue;
+    top: 20%;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 1%;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 40%;
+    width: 70%;
+    display: flex;
+    box-sizing: border-box;
+
+} 
+
+.register{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding-left: 5px;
+    width: 100%;
+    height: 50%;
+    top: 0;  
+    background-color: #f58025;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 70%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    border-color: #0064b1;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+.child1{
+    display: grid;
+    box-sizing: border-box;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 70px;
+    border-left: 40%;
+    border-color: blue;
+    background-color: aliceblue;
+    padding-left: 10px;
+    
+
+   
+}
+.child2{
+    display: grid;
+    box-sizing: border-box;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 70px;
+    border-left: 40%;
+    border-color: #0064b1;
+    background-color: aliceblue;
+
+    
+}
+
+.signin{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding-left: 50px;
+    width: fit-content;
+    border-color: #0064b1;
+    background-color: #f58025;
+    
+    width: 100%;
+    height: 50%;
+    }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#Login">Login/Register</a>
+          </div><br><br><br>
+
+          <center><h2>MAVERICK MERCADO LOGIN/REGISTER</h2></center>
+
+          <!-- 
+    <div class="flex-container">
+
+        <div class="flex-child magenta">
+            <p> Sign In</p> <br><br>
+            <form class ="signin"></form>
+          <input type="text" name="username" id="First", placeholder="Username"><br><br><br>
+          <input type="text" name="pass" id="Last", placeholder="Password"> <br><br><br>
+          <input type = "submit">
+        </form>
+          
+        </div>
+  
+        <div class="flex-child green">
+            <p>Register</p><br><br>
+            <form class = "register"></form>
+          <input type="text" name="Name", placeholder="Name"><br><br>
+          <input type="date" name="dob", placeholder="Date of Birth"> <br><br>
+          <input type="text" name="address", placeholder="Address"> <br><br>
+          <input type="email" name="email", placeholder="Email"> <br><br>
+          <input type="password" name="password", placeholder="Password"> <br><br>
+          <button type="submit">Register</button>
+        </form>
+         
+        </div>
+  
+    </div>
+-->
+
+<div class="grid-container">
+
+    <div class="child1">
+        <p> Sign In</p> <br><br>
+        <form class ="signin"></form>
+          <input type="text" name="username" id="First", placeholder="Username"><br><br><br>
+          <input type="text" name="pass" id="Last", placeholder="Password"> <br><br><br>
+          <input type = "submit">
+        </form>
+    </div>
+
+    <div class="child2">
+        <p>Register</p><br><br>
+            <form class = "register"></form>
+          <input type="text" name="Name", placeholder="Name"><br><br>
+          <input type="date" name="dob", placeholder="Date of Birth"> <br><br>
+          <input type="text" name="address", placeholder="Address"> <br><br>
+          <input type="email" name="email", placeholder="Email"> <br><br>
+          <input type="password" name="password", placeholder="Password"> <br><br>
+          <button type="submit">Register</button>
+        </form>
+    </div>
+  
+</div>
+
+
+
+
+          
+        
+    </body>
+</html>
